@@ -97,6 +97,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding-bottom: 100px;
 }
 .info{
     display: flex;
@@ -113,4 +114,34 @@ a{
 }
 .text{
     max-width: 167px;
+    padding: 10px;
+}
+
+.thirdContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#E5E7EB;
+    padding: 60px;
+    
+}
+.quote{
+    display: flex;
+    max-width:750px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    
+}
+.source{
+    display: flex;
+    align-self: center;
+    padding-left: 500px;
+    font-size: 24px;
+    font-weight: bold;
 }
