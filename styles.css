@@ -145,3 +145,49 @@ a{
     font-size: 24px;
     font-weight: bold;
 }
+
+.fourthContainer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+
+}
+.blueContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3882F6;
+    padding: 50px;
+    background-color:#3882F6;
+    height: auto;
+    width: 800px;
+    border-radius: 8px;
+    gap: 120px;
+}
+.callTitle{
+    flex-basis: 50%;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.callText{
+    flex-basis: 50%;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.callSignUp{
+    flex-basis: 100%;
+    height: auto;
+    width: 120px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
